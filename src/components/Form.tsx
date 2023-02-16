@@ -29,7 +29,6 @@ const Form=(props:any)=>{
           signer ||undefined);
 
           const addVehicle=async(year:number, make:string, model:string, vehicleType:string)=>{
-              console.log(vehicleType);
               const receipt=await contract.
               addVehicle(year,make,model,vehicleType);
           }
