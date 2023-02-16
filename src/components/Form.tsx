@@ -15,7 +15,7 @@ const Form=(props:any)=>{
     const [inputYear,setYear]=useState(0);
     const [inputMake,setInputMake]=useState('');
     const [inputModel,setInputModel]=useState('');
-    const [inputVehicleType,setVehicleType]=useState('');
+    const [inputVehicleType,setVehicleType]=useState('Car');
     
     
 
@@ -29,6 +29,7 @@ const Form=(props:any)=>{
           signer ||undefined);
 
           const addVehicle=async(year:number, make:string, model:string, vehicleType:string)=>{
+              console.log(vehicleType);
               const receipt=await contract.
               addVehicle(year,make,model,vehicleType);
           }
