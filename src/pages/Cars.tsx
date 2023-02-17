@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useAccount, useConnect, useDisconnect , useBalance,useSigner} from 'wagmi'
 import { InjectedConnector } from 'wagmi/connectors/injected'
-import Balance from "../components/Balance";
 import UserData from "../components/UserData";
 import Form  from "../components/Form";
 import CarList from "../components/CarList";
@@ -15,7 +14,6 @@ function Cars(){
  
 
   const [numberPuted,setNumberPuted]=useState(0);
-  const [petList,setPetList]=useState([]);
 
 let addressString:string | undefined=`${address?.slice(0,3)}...${address?.slice(38,42)}`;
 
@@ -26,8 +24,6 @@ let addressString:string | undefined=`${address?.slice(0,3)}...${address?.slice(
         <div className="wallet-balance">
       <div className="wallet"> { addressString}
         </div>
-        <div className="balance"><Balance/></div>
-
       </div>
       <div >
         <UserData numberPuted={numberPuted} setNumberPuted={setNumberPuted}/>
