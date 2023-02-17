@@ -33,7 +33,7 @@ function App() {
     </Routes>
     <br></br>
     <br></br>
-    <center><p className='evidence'>Oldtimers Dapp is fully decentralized, you can follow all activity on <a href="https://mumbai.polygonscan.com/address/0x961434ef32009437F6bEe5FB74907d52A922403E">the smart contract</a></p></center>
+    <center><p className='evidence'>Oldtimers Dapp is fully decentralized, you can follow all activity on <a href="https://explorer-testnet.trust.one/address/0x0EB7dA9e8b7f85Bc801BaeB718BE0476B48Bb9Be">the smart contract</a></p></center>
     </div>
     
   );

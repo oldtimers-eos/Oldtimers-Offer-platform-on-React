@@ -3,7 +3,6 @@ import { ethers } from "ethers";
 import { useAccount, useConnect, useDisconnect , useBalance, useSigner} from 'wagmi'
 import { InjectedConnector } from 'wagmi/connectors/injected'
 import abi from '../abi.json'
-import Balance from "../components/Balance";
 import UserData from "../components/UserData";
 import Form  from "../components/Form";
 import {contractAddress} from "../smartcontract";
@@ -21,7 +20,6 @@ function AddVehicle(){
   });
 
   //States
-  const [pets,setPets]=useState([]);
   const [numberPuted,setNumberPuted]=useState(0);
   
 let addressString:string | undefined=`${address?.slice(0,3)}...${address?.slice(38,42)}`;
@@ -57,8 +55,6 @@ const renderFormOrMaximumPage= ()=>{
         <div className="wallet-balance">
       <div className="wallet"> { addressString}
         </div>
-        <div className="balance"><Balance/></div>
-
       </div>
       <div >
        <UserData numberPuted={numberPuted} setNumberPuted={setNumberPuted} />
