@@ -1,6 +1,6 @@
-# Oldtimers Dapp v1.0.1
+# Oldtimers dApp v1.0.1
 
-Oldtimers Dapp is created with React (typescript) and Smart Contract. 
+Oldtimers dApp is created with React (typescript) and Smart Contract. 
 #### The project is live on https://oldtimers.cloud/
 The smart contract used in this dapp is deployed on EOS EVM Testnet(https://explorer-testnet.trust.one/address/0x0EB7dA9e8b7f85Bc801BaeB718BE0476B48Bb9Be). 
 
@@ -8,7 +8,7 @@ The smart contract used in this dapp is deployed on EOS EVM Testnet(https://expl
 
 ### Install
 
-Install the Dapp:
+Install the dApp:
 
 ```sh
 $ yarn install
@@ -17,16 +17,16 @@ $ yarn install
 
 ### Start
 
-Run the Dapp:
+Run the dApp:
 
 ```sh
 $ yarn start
 ```
 
-## Oldtimers Dapp (only Rent option in v1.0.1) Details
+## Oldtimers dApp (only Rent option in v1.0.1) Details
 
-Oldtimers (Rent & Buy) Dapp is made up of team members from the Oldtimers Offer platform. The Dapp is a Proof of Concept for Renting & Buying Classic Vehicles and belongs as a part of applying for the [ENF Grant](https://eosnetwork.com/blog/eos-network-foundation-grant-framework-guidelines/) program. Our hard work is open source and helps developers to create similar Dapps for the marketplace on the blockchain. 
-The Dapp has the following advantages and rules:
+Oldtimers (Rent & Buy) dApp is made up of team members from the Oldtimers Offer platform. The dApp is a Proof of Concept for Renting & Buying Classic Vehicles and belongs as a part of applying for the [ENF Grant](https://eosnetwork.com/blog/eos-network-foundation-grant-framework-guidelines/) program. Our hard work is open source and helps developers to create similar dApps for the marketplace on the blockchain. 
+The dApp has the following advantages and rules:
 
 -   **1. Easy to list a classic vehicle on blockchain(v1):** Users can very simply add a vehicle to the blockchain. It is a free service.
 
@@ -38,7 +38,7 @@ The Dapp has the following advantages and rules:
 
 -   **3.b. An advantage in Vehicle Reviews(v2):** The review point to a vehicle can give only users who rent that vehicle and the smart contract is secured so that users can make it only one time. In that way, we prevent some kind of manipulation. We have finally trusted review points on market (Innovative Solution!). 
 
--   **4. Service fee(v1):** We already mentioned that listing is free, but we put on our Dapp (smart contract) fee for renting and selling and in that way we create a profitable blockchain solution. The creator of the SC can change the fee for renting or selling. Also, with "accumulatedProfit" we can follow how much money make our application (smart contract).
+-   **4. Service fee(v1):** We already mentioned that listing is free, but we put on our dApp (smart contract) fee for renting and selling and in that way we create a profitable blockchain solution. The creator of the SC can change the fee for renting or selling. Also, with "accumulatedProfit" we can follow how much money make our application (smart contract).
 
 -   **5. Renting a vehicle (Innovative Solution!)(v1):** During the creation of renting function in our smart contract we tried to make high light of the blockchain function. We certainly think that we succeeded in that. Why? Let's explain in the next step.
 
